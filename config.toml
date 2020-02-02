@@ -1,0 +1,29 @@
+baseURL = "https://rambobafet.fr"
+languageCode = "fr-fr"
+title = "Le blog du Bobu"
+copyright = ""
+disableKinds = ["section"]
+theme = "diary"
+# googleAnalytics = ""
+
+[params]
+subtitle = "Themed by Diary."
+enableGitalk = false
+
+[params.gitalk]
+  owner = "user"
+  repo = "repo name"
+  client_id = "your client id"
+  client_secret = "your client secret"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 1
